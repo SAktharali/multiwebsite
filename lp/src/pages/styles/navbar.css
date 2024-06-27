@@ -1,4 +1,4 @@
-.nav {
+/* .nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -74,4 +74,11 @@
       cursor: pointer;
     }
   }
-  
+   */
+
+   .navbar-brand{
+    font-weight: 800;
+   }
+   .navbar{
+font-size: 20px;
+   }
