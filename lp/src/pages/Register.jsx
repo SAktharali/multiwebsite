@@ -104,8 +104,7 @@ const Register = () => {
   return (
     <>
       <NavBar />
-      <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div className='card container mt-5'>
+      <div className='card container mt-5' style={{zIndex:'-1'}}>
         <h2 className='text-center'>Register Form</h2>
         <form onSubmit={handleSubmit}>
           <div className='row'>
@@ -185,7 +184,6 @@ const Register = () => {
             </div>
           </div>
         </form>
-      </div>
       </div>
     </>
   );
