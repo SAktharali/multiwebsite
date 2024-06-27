@@ -6,6 +6,8 @@ const Home = () => {
     <>
     <NavBar/>
     <div>Home</div>
+    <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+</div>
     </>
   )
 }
