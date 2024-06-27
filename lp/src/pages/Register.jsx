@@ -105,7 +105,7 @@ const Register = () => {
     <>
       <NavBar />
       <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div className='container mt-5'>
+      <div className='card container mt-5'>
         <h2 className='text-center'>Register Form</h2>
         <form onSubmit={handleSubmit}>
           <div className='row'>
