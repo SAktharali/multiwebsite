@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import './styles/navbar.css'
+
 const NavBar = ({setShowModal}) => {
     // const[isMobile,setIsMobile]=useState(false);
+    
   return (
    <>
  {/* <nav className='nav'>
@@ -54,7 +56,7 @@ Gallery
 Sign up
         </li>
           </Link>
-     
+   
       </ul>
     </div>
   </div>

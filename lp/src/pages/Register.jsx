@@ -122,7 +122,7 @@ const Register = () => {
           >
             <div className="modal-content">
               <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLabel">Register Form</h5>
+                <h4 className="modal-title" id="exampleModalLabel">Register Form</h4>
                 <button
                   type="button"
                   className="btn-close"
@@ -136,7 +136,9 @@ const Register = () => {
                 <form onSubmit={handleSubmit}>
                   <div className="row">
                     <div className="col-lg-6 mb-3">
-                      <label htmlFor="fname">First Name:</label>
+                    <strong>
+                       <label htmlFor="fname">First Name:</label>
+                      </strong> 
                       <input
                         type="text"
                         id="fname"
@@ -150,7 +152,9 @@ const Register = () => {
                       )}
                     </div>
                     <div className="col-lg-6 mb-3">
+                      <strong>
                       <label htmlFor="lname">Last Name:</label>
+                      </strong>
                       <input
                         type="text"
                         id="lname"
@@ -164,7 +168,9 @@ const Register = () => {
                       )}
                     </div>
                     <div className="col-lg-6 mb-3">
+                      <strong>
                       <label htmlFor="email">Email:</label>
+                      </strong>
                       <input
                         type="email"
                         id="email"
@@ -178,7 +184,9 @@ const Register = () => {
                       )}
                     </div>
                     <div className="col-lg-6 mb-3">
+                      <strong>
                       <label htmlFor="mobile">Mobile Number:</label>
+                      </strong>
                       <input
                         type="text"
                         id="mobile"
@@ -192,7 +200,9 @@ const Register = () => {
                       )}
                     </div>
                     <div className="col-lg-6 mb-3">
+                      <strong>
                       <label htmlFor="password">Password:</label>
+                      </strong>
                       <input
                         type="password"
                         id="password"
@@ -206,7 +216,9 @@ const Register = () => {
                       )}
                     </div>
                     <div className="col-lg-6 mb-3">
+                      <strong>
                       <label htmlFor="confirmPassword">Confirm Password:</label>
+                      </strong>
                       <input
                         type="password"
                         id="confirmPassword"
@@ -220,7 +232,9 @@ const Register = () => {
                       )}
                     </div>
                     <div className="col-lg-6 mb-3">
+                      <strong>
                       <label>Gender:</label>
+                      </strong>
                       <div className="form-check">
                         <input
                           className="form-check-input"
@@ -268,7 +282,9 @@ const Register = () => {
                       )}
                     </div>
                     <div className="col-lg-6 mb-3">
+                      <strong>
                       <label>Marital Status:</label>
+                      </strong>
                       <div className="form-check">
                         <input
                           className="form-check-input"
@@ -316,7 +332,9 @@ const Register = () => {
                       )}
                     </div>
                     <div className="col-lg-6 mb-3">
+                      <strong>
                       <label htmlFor="dob">DOB:</label>
+                      </strong>
                       <input
                         type="date"
                         id="dob"

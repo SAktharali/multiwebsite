@@ -1,0 +1,26 @@
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.image-container{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.image-container > div{
+flex-basis: 18%;
+margin: 5px;
+flex-grow: 1;
+}
+img{
+    opacity: 0.9;
+}
+img:hover{
+    opacity: 1;
+    transition: all 0.5s ease-out;
+    box-shadow: 3px 4px 10px black;
+  
+}
